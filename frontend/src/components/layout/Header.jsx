@@ -85,7 +85,9 @@ export const Header = () => {
           <Sheet open={open} onOpenChange={setOpen}>
             <SheetTrigger asChild>
               <button
-                className="p-2 text-charcoal-700 hover:text-charcoal-900"
+                className={`p-2 transition-colors duration-300 ${
+                  isLight ? 'text-cream-200 hover:text-cream-100' : 'text-charcoal-700 hover:text-charcoal-900'
+                }`}
                 aria-label="Menu"
               >
                 <Menu className="w-6 h-6" />
