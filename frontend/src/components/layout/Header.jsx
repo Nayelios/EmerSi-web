@@ -68,7 +68,11 @@ export const Header = () => {
         <div className="hidden lg:flex items-center gap-4">
           <Link to="/contact">
             <Button
-              className="bg-charcoal-800 text-cream-100 hover:bg-charcoal-700 font-sans text-sm tracking-wide px-6 py-2.5 rounded-sm group"
+              className={`font-sans text-sm tracking-wide px-6 py-2.5 rounded-sm group transition-all duration-500 ${
+                isLight
+                  ? 'bg-cream-100 text-charcoal-800 hover:bg-white'
+                  : 'bg-charcoal-800 text-cream-100 hover:bg-charcoal-700'
+              }`}
             >
               Lancer mon projet
               <ArrowUpRight className="w-4 h-4 ml-1 transition-transform duration-300 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
