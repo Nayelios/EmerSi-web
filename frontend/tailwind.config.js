@@ -17,6 +17,38 @@ module.exports = {
   			sm: 'calc(var(--radius) - 4px)'
   		},
   		colors: {
+  			bronze: {
+  				50: '#F9F5F0',
+  				100: '#F0E8DD',
+  				200: '#E0D0BA',
+  				300: '#CBB38F',
+  				400: '#B69768',
+  				500: '#937B5D',
+  				600: '#7A6549',
+  				700: '#5E4D38',
+  				800: '#433628',
+  				900: '#2B221A',
+  			},
+  			cream: {
+  				50: '#FDFCFA',
+  				100: '#FAF8F5',
+  				200: '#F5F0EB',
+  				300: '#EDE8E2',
+  				400: '#E7E0D8',
+  			},
+  			charcoal: {
+  				DEFAULT: '#1C1917',
+  				50: '#F5F5F4',
+  				100: '#E7E5E4',
+  				200: '#D6D3D1',
+  				300: '#A8A29E',
+  				400: '#78716C',
+  				500: '#57534E',
+  				600: '#44403C',
+  				700: '#292524',
+  				800: '#1C1917',
+  				900: '#0C0A09',
+  			},
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
