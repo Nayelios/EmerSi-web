@@ -39,9 +39,11 @@ export const Header = () => {
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <span className="font-serif text-xl md:text-2xl font-semibold tracking-wide text-charcoal-800">
+          <span className={`font-serif text-xl md:text-2xl font-semibold tracking-wide transition-colors duration-500 ${
+            isLight ? 'text-cream-100' : 'text-charcoal-800'
+          }`}>
             GROUPE{' '}
-            <span className="text-bronze-500">RÉALIS</span>
+            <span className={`transition-colors duration-500 ${isLight ? 'text-bronze-300' : 'text-bronze-500'}`}>RÉALIS</span>
           </span>
         </Link>
 
@@ -53,8 +55,8 @@ export const Header = () => {
               to={link.href}
               className={`link-underline px-3 py-2 text-sm tracking-wide transition-colors duration-300 ${
                 isActive(link.href)
-                  ? 'text-bronze-500 font-medium'
-                  : 'text-charcoal-500 hover:text-charcoal-800'
+                  ? isLight ? 'text-bronze-300 font-medium' : 'text-bronze-500 font-medium'
+                  : isLight ? 'text-cream-200 hover:text-cream-100' : 'text-charcoal-500 hover:text-charcoal-800'
               }`}
             >
               {link.label}
