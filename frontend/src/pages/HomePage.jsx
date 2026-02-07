@@ -18,11 +18,11 @@ const PromiseBlock = () => {
         <div className={`fade-in-up ${isVisible ? 'visible' : ''} max-w-3xl mx-auto text-center`}>
           <Sparkles className="w-6 h-6 text-bronze-400 mx-auto mb-6" />
           <blockquote className="font-serif text-2xl md:text-3xl lg:text-4xl font-light text-charcoal-800 leading-snug mb-6">
-            Vous ne cherchez pas un prestataire. Vous cherchez quelqu\u2019un qui porte votre projet comme si c\u2019était le sien.
+            Vous ne cherchez pas un prestataire. Vous cherchez quelqu’un qui porte votre projet comme si c’était le sien.
           </blockquote>
           <Separator className="w-16 mx-auto mb-6 bg-bronze-300" />
           <p className="text-base text-bronze-500 font-medium tracking-wide">
-            C\u2019est exactement ce que nous faisons.
+            C’est exactement ce que nous faisons.
           </p>
         </div>
       </div>
@@ -41,7 +41,7 @@ const ExpertisesTeaser = () => {
             Nos expertises
           </h2>
           <p className="text-base text-charcoal-400 max-w-xl mx-auto">
-            Quatre domaines d\u2019intervention. Un même standard d\u2019excellence.
+            Quatre domaines d’intervention. Un même standard d’excellence.
           </p>
         </div>
 
@@ -104,7 +104,7 @@ const QualificationBlock = () => {
               Est-ce pour vous ?
             </h2>
             <p className="text-base text-charcoal-400 leading-relaxed">
-              RÉALIS s\u2019adresse à ceux qui veulent le meilleur, sans compromis.
+              RÉALIS s’adresse à ceux qui veulent le meilleur, sans compromis.
             </p>
           </div>
           <div className={`fade-in-up stagger-2 ${isVisible ? 'visible' : ''}`}>
@@ -133,11 +133,11 @@ export default function HomePage() {
     <div className="page-enter">
       <HeroSection
         subtitle="Projets personnalisés et haut de gamme"
-        title="Vous n\u2019avez plus à porter votre projet seul."
-        text="Vous n\u2019avez pas le temps de coordonner, comparer, relancer. Vous voulez un cadre clair, une décision rapide, un résultat à la hauteur. RÉALIS devient votre interlocuteur unique. Nous structurons, pilotons et livrons."
+        title="Vous n’avez plus à porter votre projet seul."
+        text="Vous n’avez pas le temps de coordonner, comparer, relancer. Vous voulez un cadre clair, une décision rapide, un résultat à la hauteur. RÉALIS devient votre interlocuteur unique. Nous structurons, pilotons et livrons."
         primaryCTA="Lancer mon projet"
         primaryCTALink="/contact"
-        secondaryCTA="Découvrir l\u2019expérience RÉALIS"
+        secondaryCTA="Découvrir l’expérience RÉALIS"
         secondaryCTALink="/experience"
         backgroundImage={IMAGES.hero}
         showScroll

@@ -14,7 +14,7 @@ export const IMAGES = {
 
 export const NAV_LINKS = [
   { label: 'Le Système', href: '/systeme' },
-  { label: 'L\u2019Expérience', href: '/experience' },
+  { label: 'L’Expérience', href: '/experience' },
   { label: 'Parcours', href: '/parcours' },
   { label: 'Expertises', href: '/expertises' },
   { label: 'Partenaires', href: '/partenaires' },
@@ -31,9 +31,9 @@ export const PILLARS = [
   },
   {
     id: 'passage',
-    title: 'Passage à l\u2019acte',
+    title: 'Passage à l’acte',
     subtitle: 'Un cadre clair. Vous avancez.',
-    description: 'Des options claires, des décisions simplifiées. Votre projet passe de l\u2019idée à la réalité sans friction.',
+    description: 'Des options claires, des décisions simplifiées. Votre projet passe de l’idée à la réalité sans friction.',
     icon: 'ArrowRight',
   },
   {
@@ -49,7 +49,7 @@ export const STEPS = [
   {
     number: '01',
     title: 'Comprendre',
-    description: 'Analyse de vos objectifs, contraintes et priorités. Nous prenons le temps de saisir l\u2019essence de votre projet.',
+    description: 'Analyse de vos objectifs, contraintes et priorités. Nous prenons le temps de saisir l’essence de votre projet.',
   },
   {
     number: '02',
@@ -128,7 +128,7 @@ export const EXPERTISE_BENEFITS = [
   'Un responsable unique',
   'Un cadre clair et des décisions simplifiées',
   'Un projet qui avance sans relances',
-  'Un résultat à la hauteur du niveau d\u2019exigence',
+  'Un résultat à la hauteur du niveau d’exigence',
 ];
 
 export const EXPERTISE_PROMISE = 'Nous prenons en charge le projet de bout en bout : cadrage, planification, coordination, exécution, finitions.';
@@ -150,7 +150,7 @@ export const PARTNER_BENEFITS = [
 ];
 
 export const PARTNER_REQUIREMENTS = [
-  'Qualité d\u2019exécution irréprochable',
+  'Qualité d’exécution irréprochable',
   'Fiabilité et respect des engagements',
   'Communication proactive',
   'Respect du cadre et des standards RÉALIS',
@@ -195,10 +195,10 @@ export const CONTACT_OBJECTIVES = [
 ];
 
 export const QUALIFICATION_POINTS = [
-  'Particuliers à fort pouvoir d\u2019achat',
+  'Particuliers à fort pouvoir d’achat',
   'Projets personnalisés',
   'Exigence élevée',
-  'Volonté de passer à l\u2019action maintenant',
+  'Volonté de passer à l’action maintenant',
 ];
 
 export const FOOTER_ZONES = [

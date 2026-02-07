@@ -14,10 +14,10 @@ const BenefitsSection = () => {
           <div className={`fade-in-up ${isVisible ? 'visible' : ''}`}>
             <div className="section-divider mb-6" />
             <h2 className="font-serif text-3xl md:text-4xl font-light text-charcoal-800 mb-4">
-              Ce qu\u2019on apporte
+              Ce qu’on apporte
             </h2>
             <p className="text-base text-charcoal-400 mb-8">
-              Intégrer le réseau RÉALIS, c\u2019est accéder à un écosystème structuré et premium.
+              Intégrer le réseau RÉALIS, c’est accéder à un écosystème structuré et premium.
             </p>
             <div className="space-y-4">
               {PARTNER_BENEFITS.map((benefit, i) => (
@@ -33,10 +33,10 @@ const BenefitsSection = () => {
           <div className={`fade-in-up stagger-2 ${isVisible ? 'visible' : ''}`}>
             <div className="section-divider mb-6" />
             <h2 className="font-serif text-3xl md:text-4xl font-light text-charcoal-800 mb-4">
-              Ce qu\u2019on exige
+              Ce qu’on exige
             </h2>
             <p className="text-base text-charcoal-400 mb-8">
-              L\u2019excellence est un engagement mutuel.
+              L’excellence est un engagement mutuel.
             </p>
             <div className="space-y-4">
               {PARTNER_REQUIREMENTS.map((req, i) => (
@@ -63,7 +63,7 @@ const ProcessSection = () => {
         <div className={`fade-in-up ${isVisible ? 'visible' : ''} mb-12`}>
           <div className="section-divider mb-6" />
           <h2 className="font-serif text-3xl md:text-4xl font-light text-charcoal-800">
-            Le processus d\u2019intégration
+            Le processus d’intégration
           </h2>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
@@ -90,8 +90,8 @@ export default function PartnersPage() {
     <div className="page-enter">
       <HeroSection
         subtitle="Devenir partenaire"
-        title="Rejoindre un système d\u2019intervention premium."
-        text="Cadre clair, standards élevés, projets haut de gamme. Si l\u2019excellence est votre standard, nous voulons travailler avec vous."
+        title="Rejoindre un système d’intervention premium."
+        text="Cadre clair, standards élevés, projets haut de gamme. Si l’excellence est votre standard, nous voulons travailler avec vous."
         primaryCTA="Candidater"
         compact
       />

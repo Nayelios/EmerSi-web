@@ -18,10 +18,10 @@ const StoryBlock = () => {
             </h2>
             <div className="space-y-4 text-base text-charcoal-500 leading-relaxed">
               <p>
-                GROUPE RÉALIS est né d\u2019un constat simple : les particuliers à fort pouvoir d\u2019achat méritent une expérience à la hauteur de leurs projets.
+                GROUPE RÉALIS est né d’un constat simple : les particuliers à fort pouvoir d’achat méritent une expérience à la hauteur de leurs projets.
               </p>
               <p>
-                Trop souvent, des projets ambitieux restent bloqués par la complexité de la coordination, la multiplicité des intervenants et l\u2019absence d\u2019un cadre clair.
+                Trop souvent, des projets ambitieux restent bloqués par la complexité de la coordination, la multiplicité des intervenants et l’absence d’un cadre clair.
               </p>
               <p>
                 Nous avons créé un système qui change la donne : un responsable unique, un pilotage rigoureux et des standards qui ne se négocient pas.
@@ -98,7 +98,7 @@ export default function AboutPage() {
       <HeroSection
         subtitle="À propos"
         title="Groupe RÉALIS"
-        text="Un système d\u2019intervention premium pour des projets personnalisés haut de gamme."
+        text="Un système d’intervention premium pour des projets personnalisés haut de gamme."
         backgroundImage={IMAGES.system}
         primaryCTA="Lancer mon projet"
         compact

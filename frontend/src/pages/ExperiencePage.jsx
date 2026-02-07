@@ -56,13 +56,13 @@ const pillarDetails = [
   },
   {
     icon: ArrowRight,
-    label: 'Pilier 2 — Passage à l\u2019acte',
+    label: 'Pilier 2 — Passage à l’acte',
     title: 'Un cadre clair, une décision rapide.',
-    description: 'On ne vous noie pas dans les options. On vous présente les meilleures, on vous aide à décider, et on avance. Votre projet ne reste pas au stade d\u2019idée.',
+    description: 'On ne vous noie pas dans les options. On vous présente les meilleures, on vous aide à décider, et on avance. Votre projet ne reste pas au stade d’idée.',
     features: [
       'Options claires et recommandations argumentées.',
       'Décisions simplifiées, sans zone grise.',
-      'Passage rapide de la décision à l\u2019action.',
+      'Passage rapide de la décision à l’action.',
     ],
   },
   {
@@ -82,8 +82,8 @@ export default function ExperiencePage() {
   return (
     <div className="page-enter">
       <HeroSection
-        subtitle="L\u2019Expérience RÉALIS"
-        title="Soulagement, passage à l\u2019acte, confiance."
+        subtitle="L’Expérience RÉALIS"
+        title="Soulagement, passage à l’acte, confiance."
         text="Une expérience client hors du commun : un projet qui avance, sans friction, sous contrôle."
         backgroundImage={IMAGES.experience}
         primaryCTA="Lancer mon projet"

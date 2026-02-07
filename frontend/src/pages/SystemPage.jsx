@@ -9,9 +9,9 @@ import { AlertTriangle, Target, Users } from 'lucide-react';
 const ProblemBlock = () => {
   const [ref, isVisible] = useInView();
   const problems = [
-    { icon: AlertTriangle, title: 'Multiplication d\u2019intervenants', text: 'Vous jongler entre différents prestataires, chacun avec ses méthodes et ses délais.' },
+    { icon: AlertTriangle, title: 'Multiplication d’intervenants', text: 'Vous jongler entre différents prestataires, chacun avec ses méthodes et ses délais.' },
     { icon: Target, title: 'Zones floues et retards', text: 'Pas de cadre clair, des responsabilités diluées, des relances constantes.' },
-    { icon: Users, title: 'Charge mentale', text: 'Vous finissez par piloter vous-même un projet que vous n\u2019avez ni le temps ni l\u2019envie de gérer.' },
+    { icon: Users, title: 'Charge mentale', text: 'Vous finissez par piloter vous-même un projet que vous n’avez ni le temps ni l’envie de gérer.' },
   ];
 
   return (
@@ -23,7 +23,7 @@ const ProblemBlock = () => {
             Le problème du marché
           </h2>
           <p className="text-base text-charcoal-400 max-w-xl">
-            La réalité de la plupart des projets haut de gamme aujourd\u2019hui.
+            La réalité de la plupart des projets haut de gamme aujourd’hui.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -79,7 +79,7 @@ export default function SystemPage() {
       <HeroSection
         subtitle="Le Système RÉALIS"
         title="Un cadre clair, un responsable unique."
-        text="Pourquoi RÉALIS n\u2019est pas un prestataire classique : prise en charge complète, pilotage rigoureux, clarté absolue."
+        text="Pourquoi RÉALIS n’est pas un prestataire classique : prise en charge complète, pilotage rigoureux, clarté absolue."
         backgroundImage={IMAGES.system}
         primaryCTA="Demander une prise en charge"
         compact

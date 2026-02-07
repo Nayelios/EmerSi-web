@@ -22,7 +22,7 @@ const ProblemBlock = ({ problems }) => {
         <div className={`fade-in-up ${isVisible ? 'visible' : ''} max-w-3xl`}>
           <div className="section-divider mb-6" />
           <h2 className="font-serif text-3xl md:text-4xl font-light text-charcoal-800 mb-8">
-            L\u2019intention
+            L’intention
           </h2>
           <div className="space-y-5">
             {problems.map((problem, i) => (

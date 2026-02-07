@@ -65,7 +65,7 @@ export default function ExpertisesPage() {
     <div className="page-enter">
       <HeroSection
         subtitle="Nos expertises"
-        title="L\u2019excellence, dans chaque domaine."
+        title="L’excellence, dans chaque domaine."
         text="Finition intérieure, aménagement extérieur, excavation, désencombrement. Quatre expertises, un même engagement de qualité."
         primaryCTA="Demander une prise en charge"
         compact

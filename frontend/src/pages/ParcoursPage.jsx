@@ -9,11 +9,11 @@ const DetailedStep = ({ step, index }) => {
   const isEven = index % 2 === 0;
 
   const expandedDescriptions = [
-    'Nous prenons le temps de saisir l\u2019essence de votre projet. Objectifs, contraintes, priorités, style de vie — chaque élément compte. Cette étape est la fondation de tout ce qui suit.',
+    'Nous prenons le temps de saisir l’essence de votre projet. Objectifs, contraintes, priorités, style de vie — chaque élément compte. Cette étape est la fondation de tout ce qui suit.',
     'Nous vous présentons les meilleures options, avec des recommandations claires et argumentées. Vous arbitrez en toute connaissance de cause, sans zone grise.',
     'Séquence, coordination, échéancier — chaque étape est anticipée et organisée pour garantir fluidité et respect des délais.',
     'Standard élevé, contrôle continu, finitions impeccables. Nous supervisons chaque phase avec rigueur pour un résultat à la hauteur de vos exigences.',
-    'Validation minutieuse, ajustements finaux et suivi post-livraison. Votre satisfaction est notre signature, et notre engagement ne s\u2019arrête pas à la remise des clés.',
+    'Validation minutieuse, ajustements finaux et suivi post-livraison. Votre satisfaction est notre signature, et notre engagement ne s’arrête pas à la remise des clés.',
   ];
 
   return (

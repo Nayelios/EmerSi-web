@@ -71,7 +71,7 @@ export default function ContactPage() {
             Réponse sous 24h ouvrables. Cadre clair dès le départ.
           </p>
           <p className="text-sm text-charcoal-300">
-            Nous vous contacterons au numéro ou à l\u2019adresse fournie.
+            Nous vous contacterons au numéro ou à l’adresse fournie.
           </p>
         </div>
       </div>

@@ -35,7 +35,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               {[
                 { label: 'Le Système', href: '/systeme' },
-                { label: 'L\u2019Expérience', href: '/experience' },
+                { label: 'L’Expérience', href: '/experience' },
                 { label: 'Parcours client', href: '/parcours' },
                 { label: 'Devenir partenaire', href: '/partenaires' },
                 { label: 'À propos', href: '/a-propos' },

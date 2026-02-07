@@ -46,7 +46,7 @@ export default function PrivacyPage() {
             <div>
               <h2 className="font-serif text-xl text-charcoal-800 mb-3">Vos droits</h2>
               <p className="text-sm leading-relaxed">
-                Vous disposez d\u2019un droit d\u2019accès, de rectification et de suppression de vos données personnelles. Pour exercer ces droits, contactez-nous à l\u2019adresse info@grouperealis.com.
+                Vous disposez d’un droit d’accès, de rectification et de suppression de vos données personnelles. Pour exercer ces droits, contactez-nous à l’adresse info@grouperealis.com.
               </p>
             </div>
 
