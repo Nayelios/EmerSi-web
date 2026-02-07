@@ -5,10 +5,15 @@ import { NAV_LINKS } from '../../data/mock';
 import { Sheet, SheetContent, SheetTrigger, SheetTitle } from '../ui/sheet';
 import { Button } from '../ui/button';
 
+// Pages with dark hero backgrounds where header text should be light
+const DARK_HERO_PAGES = ['/', '/systeme', '/experience', '/parcours', '/a-propos'];
+
 export const Header = () => {
   const [scrolled, setScrolled] = useState(false);
   const [open, setOpen] = useState(false);
   const location = useLocation();
+
+  const hasDarkHero = DARK_HERO_PAGES.includes(location.pathname) || location.pathname.startsWith('/expertises/');
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 20);
@@ -21,6 +26,7 @@ export const Header = () => {
   }, [location.pathname]);
 
   const isActive = (href) => location.pathname === href;
+  const isLight = hasDarkHero && !scrolled;
 
   return (
     <header
